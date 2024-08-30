@@ -1,1 +1,1 @@
-node index.js http://localhost:3000/?address=London
+node index.js http://localhost:3000/?city=paris
