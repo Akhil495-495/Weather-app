@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 	let city = req.query.city;
 	var request = require('request');
 	request(
-		`https://samples.openweathermap.org/data/2.5/forecast?q=${city}&appid=replace-this-with-your-api-key`,
+		`https://samples.openweathermap.org/data/2.5/forecast?q=${city}&appid=0503191898fa0a4b0a40bf58df409c81`,
 		function(error, response, body) {
 			let data = JSON.parse(body);
 			if (response.statusCode === 200) {
